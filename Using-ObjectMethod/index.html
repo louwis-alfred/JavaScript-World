@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const studentScores = {
+            Louwis: 98,
+            Kapitan: 87,
+            Macarthur: 97,
+        }
+
+        let i = 1
+        for (student in studentScores) {
+            console.log(`${i}. ${student} has a score of ${studentScores[student]}`)
+            i += 1
+        }
+    </script>
+</body>
+</html>
