@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        // Example # 1
+
+        // Arrays
+        const subreddits = ['cringe','books','chickens','house','basketball']
+
+        // Using For loop
+        for (let i = 0; i < subreddits.length; i ++) {
+            console.log(`Visit reddit.com/r/${subreddits[i]}`)
+        }
+
+        // Using For of 
+        for (let sub of subreddits) {
+            console.log(sub)
+        }
+
+        // Example # 2
+
+        // Arrays of names
+        const names = ['Louwis','Mr.Bean','Stephen Curry','Lebron James','Kevin Durant','Jackie']
+
+        // Using For loop
+        for (let i = 0; i < names.length; i ++) {
+            console.log(`${i + 1}. ${names[i]}`)
+        }
+
+        // Using For of
+        let index = 1
+        for (name of names) {
+            console.log(`${index}. ${name}`)
+            index += 1
+        }
+    </script>
+</body>
+</html>
