@@ -13,8 +13,3 @@ console.log(array.filter(findPrime))
 
 
 // ANSWER:  2, 3, 5, 7, 11, 13  
-
-names = ['Bibeng','Kapitan','Macmac']
-for (let i = 0; i < names.length; i++){
-    console.log(`Hello, ${names[i]}`)
-}
