@@ -1,0 +1,38 @@
+<html>
+    <body>
+        <script>
+
+            // Example # 1
+
+            // Declare an Array
+            const numbers = [1,2,3,4,5,6,7,8,9,10]
+            // Filter Function
+            numbers.filter(n => {
+                return n < 10;
+            })
+
+            // Example # 2
+            const movie = [
+            {
+                title: 'Titanic',
+                score: 90
+            },
+            
+            {
+                title: '3 Idiots',
+                score: 100
+            }
+            ,
+            {
+                title: 'Fast and Furious 3',
+                score: 95
+            }
+        ]
+
+            const goodMovies = movie.filter(m => {
+                return m.score > 95
+            })
+
+        </script>
+    </body> 
+</html>
