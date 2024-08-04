@@ -16,7 +16,7 @@ const movies = [
 
 
 let highestRate = movies.reduce((mov1, mov2) => {
-    if (mov2 > mov1) {
+    if (mov2.score > mov1.score) {
         return mov2
     }
     return mov1
