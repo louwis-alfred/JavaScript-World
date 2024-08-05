@@ -1,6 +1,7 @@
 const prices = [9.99, 1.50, 19.99, 49.99, 30.50];
 
-First Method of summing the array
+// First Method of summing the array
+// Using the for loop
 let total = 0;
 
 for (let price of prices) {
