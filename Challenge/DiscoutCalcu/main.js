@@ -1,3 +1,4 @@
+// https://medium.com/@francesco.saviano87/master-javascript-functions-5-simple-real-world-exercises-971f7b50751a
 function calculateDiscount(price, discountPercentage) {
     return price - (price * discountPercentage / 100)
 }
