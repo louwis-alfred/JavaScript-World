@@ -14,3 +14,14 @@ const btn2 = document.querySelector('.btn-example2');
 btn2.addEventListener('click', () => {
     alert('This is addEventListener')
 })
+
+
+// Declaring a shout function 
+
+const shout = () => {
+    return 'Waaaah!!!!'
+}
+
+btn3.addEventListener('click', () => {
+    alert(shout());
+}
