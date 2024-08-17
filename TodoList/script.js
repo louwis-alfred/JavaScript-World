@@ -23,7 +23,7 @@ while (input !== 'q' && input !== 'quit') {
         }
        
     }
-    input = prompt('What would you like to do?: ');
+    input = prompt('What would you like to do?: '); // Get new user input 
 }
 
-console.log('You quit the app')
+console.log('You quit the app') // Exit message
