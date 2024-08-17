@@ -15,6 +15,10 @@ while (input !== 'q' && input !== 'quit') {
         console.log(`${newTodo} is added to the list`)
     } else if (input === 'delete') { // Delete a todo
         const indextoDelete = parseInt(prompt('Enter an index to delete: '));
+        
+        //Number.isNaN() is a function that determines whether a value is NaN.
+        // The exclamation mark (!) negates the result, so the condition is true if indexToDelete is a valid number.
+        
         if (!Number.isNaN(indextoDelete)) { // Checks if the index is a valid number
             const deletedIndex = todos.splice(indextoDelete, 1);
             console.log(`${deletedIndex} has been deleted.`)
