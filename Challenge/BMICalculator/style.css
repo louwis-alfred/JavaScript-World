@@ -1,0 +1,143 @@
+body {
+    text-align: center;
+    background-color: #f0f0f0; 
+    margin:0;
+    padding: 50px; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.gender {
+    background-color: #ffffff; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    height: 50vh;
+    width: 300px; 
+    padding: 20px; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: transform 0.2s; 
+    margin: 10px; 
+    display: inline-block; 
+    vertical-align: top; 
+}
+
+.gender:hover {
+    transform: scale(1.05); 
+}
+
+.gender img {
+    width: 30vh; 
+    height: auto; 
+    display: block;
+    margin: 0 auto 10px; 
+}
+
+.gender label {
+    display: block;
+    font-size: 32px; 
+    color: #333; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.maletext {
+    margin-top: 55px;
+}
+
+.gender input[type="radio"] {
+    display: none; 
+}
+
+.gender.selected {
+    border: 2px solid lightskyblue; /* Highlight selected option */
+}
+
+.modern-button {
+    font-size: 24px;
+    height:60px;
+    width: 150px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #fff; 
+    background-color: #3498db; 
+    
+
+    position: absolute;
+    bottom: 40px; 
+    right: 80px;  
+  }
+  
+  .modern-button:hover {
+    background-color: #2980b9;
+  }
+
+  /* Form */
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: rgb(108, 106, 106);
+}
+.text-highlight {
+    color: rgb(55, 54, 54);
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.box {
+    display: flex;
+    margin: 10px auto; 
+}
+  
+.text-input {
+    padding: 10px 15px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    margin-right: 10px; 
+    
+    outline: none;
+}
+  
+.text-input:focus {
+    border: solid 1.5px lightskyblue;
+}
+  
+.text-input::placeholder {
+    color: #999;
+}
+
+/* Add styles as needed for result display */
+.result-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+
+.result-container h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.result-container p {
+    font-size: 18px;
+    color: #555;
+}
