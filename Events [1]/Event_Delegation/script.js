@@ -20,3 +20,8 @@ form.addEventListener('submit', (event) => {
     username.value = '';
     tweet.value = '';
 })
+
+// Event Delegation
+list.addEventListener('click', (e) => {
+    e.target.remove();
+})
