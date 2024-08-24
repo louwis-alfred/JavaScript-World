@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form" id="form" onsubmit="return validateform()">
+        <div class="container">
+            <p class="title"><span class="text-highlight">B</span>ody <span class="text-highlight">M</span>ass <span class="text-highlight">I</span>ndex</p>
+            <div class="box">
+                <input type="text" class="text-input" id="age" autocomplete="off" required placeholder="Enter your age">
+                <input type="text" class="text-input" id="height" autocomplete="off" required placeholder="Enter Height (cm)">
+                <input type="text" class="text-input" id="weight" autocomplete="off" required placeholder="Enter Weight (kg)">
+            </div>
+        </div>
+        <input type="submit" value="Submit" class="modern-button">
+    </form>
+
+    <div id="result-container" style="display: none;">
+        <p class="output"></p>
+        <p class="bmi-text">BMI <span class="bmi-result"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
