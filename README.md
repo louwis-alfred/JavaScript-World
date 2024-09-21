@@ -6,7 +6,7 @@ This collection of tutorials is based on my learning journey through a bootcamp 
 
 ---
 
-## 🚀 What's Inside?
+## What's Inside?
 
 Here, you'll find a collection of tutorials, examples, and exercises focused on **JavaScript** concepts, ranging from beginner to advanced topics:
 
