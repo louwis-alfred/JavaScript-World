@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Fetcher</title>
+    <style>
+        /* Optional: Basic styling for better presentation */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #output div {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            max-width: 300px;
+            background-color: #f9f9f9;
+        }
+        input, button {
+            padding: 8px;
+            font-size: 16px;
+        }
+        button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pokémon Fetcher</h1>
+    <input type="text" id="pokemonName" placeholder="Enter Pokémon name:" />
+    <button id="fetchButton">Fetch Pokémon</button>
+    <br><br>
+    <div id="output"></div>
+    <script src="script.js"></script>
+</body>
+</html>
