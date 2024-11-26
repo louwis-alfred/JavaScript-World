@@ -22,7 +22,6 @@ for (let h1 of h1s) {
     h1.addEventListener('click', colorized);
 }
 
-// Using keyword "this"
 
 function colorized() {
     this.style.backgroundColor = makeRandomColor();
