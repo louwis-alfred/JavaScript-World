@@ -1,8 +1,5 @@
 # JavaScript Tutorial
-This collection of tutorials is based on my learning journey through a bootcamp on Udemy, along with my personal practice and experimentation. I'm excited to share this with you and hope it helps you on your path to mastering JavaScript!
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Udemy](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white)
+This collection of tutorials is based on my learning journey through a bootcamp, along with my personal practice and experimentation. I'm excited to share this with you and hope it helps you on your path to mastering JavaScript
 
 ---
 
